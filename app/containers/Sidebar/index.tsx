@@ -95,7 +95,7 @@ export function SideBar(props: { className?: string }) {
         ]}
         onSelect={(id) => {
           if (id === "github") {
-            return window.open(REPO_URL, "noopener noreferrer");
+            return window.open("https://gpt-chatbot.ru", "noopener noreferrer");
           }
           if (id !== Path.Masks) {
             return navigate(id);
